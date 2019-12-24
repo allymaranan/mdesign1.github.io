@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ff0000;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+.homeheader{
+    width: 50%;
+    height: 170px;
+   
+ }
+ 
+  .homehead{
+    letter-spacing: 2px;
+    font-size: 30px;
+    border-style: solid;
+    background-color: black;
+	color: #ffffff;
+	font-family: candara;
+  }
+
+  .homesectiondiv2{
+    margin-top:0;
+    text-align:center;
+    
+   padding-top: 10px;
+     padding-left: 150px;
+     padding-right: 90px;
+     padding-bottom: 30px;
+  }
+  .homesectiondiv3{
+    text-align:center;
+    
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 170px;
+    padding-bottom: 30px;
+  
+  }  
+ .homedev1{
+    float: left;
+    width: 31%;
+    padding: 5px;
+ }
+  .homedev2{
+    float: left;
+    width: 46%;
+    padding: 5px;
+  }
+  .social{
+    width:55px;
+    padding: 5px;
+  }
+  .up{
+    width: 35px;
+    height: 35px;
+  }
+  .homedev3{
+    margin: auto;
+    width: 15%;
+    height: 30px;
+    padding: 250px;
+    position: center;
+  }
+.homehead1{
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-style: solid;
+}
+

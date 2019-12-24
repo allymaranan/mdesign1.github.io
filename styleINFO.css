@@ -1,0 +1,146 @@
+body
+{
+		margin: 0;
+		padding: 0;
+		background-image: url(bg.jpeg);
+		background-size: cover;
+		background-attachment: fixed;
+		pointer: cursor;
+}
+p {
+	font-family: candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top: 38%;
+	left: 34%;
+}
+h1 {
+	font-family: "bookman old style";
+	font-size: 25px;
+	font-style: normal;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 44%;
+	left: 42%;
+}
+h2 {
+	font-family: candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top: 38%;
+	left: 26%;
+}
+h3 {
+	font-family: "bookman old style";
+	font-size: 25px;
+	font-style: normal;
+	text-align: center;
+	line-height: 45px;
+	position: absolute;
+	top: 42%;
+	left: 40%;
+}
+h4 {
+	font-family: candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top: 38%;
+	left: 31%;
+}
+h5 {
+	font-family: "bookman old style";
+	font-size: 25px;
+	font-style: normal;
+	text-align: center;
+	line-height: 45px;
+	position: absolute;
+	top: 42%;
+	left: 36%;
+}
+button {
+	position: absolute;
+	top: 50%;
+	left: 50;
+	transform: translate(-50%,-50%);
+}
+html, body {
+	margin: 50;
+	padding: 50;
+	width: 100;
+}
+body {
+	height: 100vh;
+	background:: #white;
+}
+button {
+	position: absolute;
+	top: 60%;
+	left: 49%;
+	transform: translate(-50%,-50%)
+}
+button {
+	width: 82px;
+	height: 30px;
+	background: #FFFFFF;
+	text-align: center;
+	font-size: 13px;
+	border-radius: 2px;
+	overflow: hidden;
+	border: 1px solid #000000;
+}
+button:focus {
+	outline: none;
+}
+button:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	background: #0077b5;
+	width: 60px;
+	height: 100%;
+	top: 0%;
+	left: 0;
+	opacity: .5s;
+	filter: blur(50px);
+	transform: translateX(-130px) skewX(-15deg);
+}
+button:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	background: #DFD0D0;
+	width: 30px;
+	height: 100%;
+	top: 0;
+	left: 30;
+	opacity: 0;
+	filter: blur(30px);
+	transform: translate(-100px) scaleX(-15deg);
+}
+button:hover {
+	background: #DA2525;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
